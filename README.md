@@ -1,7 +1,7 @@
-# Smart Parking System 🚗🅿️
+# Smart Parking System 🚗
 
 An embedded **Smart Parking System** implemented using an **ATmega328P microcontroller** and **AVR Assembly**.
-The project was developed and tested as a Proteus-based simulation using **Atmel Studio 7 / AVRASM2**.
+The project was developed and tested as a Proteus-based simulation using **Atmel Studio 7**.
 
 ## Overview
 
@@ -179,8 +179,6 @@ The servo is driven for multiple cycles to provide a stable position in the Prot
 ### Development Environment
 
 * **Atmel Studio 7**
-* **AVRASM2**
-* **AVR Assembly**
 * **Proteus**
 
 ### Microcontroller
@@ -193,28 +191,6 @@ Clock frequency:
 16 MHz
 ```
 
-## Project Structure
-
-A recommended repository structure is:
-
-```text
-Smart-Parking-System/
-│
-├── src/
-│   └── smart_parking.asm
-│
-├── proteus/
-│   └── Smart_Parking.pdsprj
-│
-├── hex/
-│   └── smart_parking.hex
-│
-├── README.md
-│
-└── .gitignore
-```
-
-Project reports and documentation files that are not required to run the project can be kept outside the GitHub repository or excluded using `.gitignore`.
 
 ## Building the Project
 
@@ -256,6 +232,3 @@ Close Gate
 Update LCD
 ```
 
-## Author
-
-Developed as an embedded systems / microcontroller project using **ATmega328P and AVR Assembly**.
